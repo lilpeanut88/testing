@@ -147,22 +147,52 @@
                    </div>
          <div class="row">
         <div class="col-lg-6">
-            <div class="big-box">image</div>
              <div class="pull-right">
-              
-   
+
+                             <div class="panel panel-default">
+                                 <div class="panel-heading"><strong>Upload files</strong> <small> </small></div>
+                                 <div class="panel-body">
+                                     <div class="form-group">
+                                         <label for="document-name">Name of Document:</label>
+                                         <input type="text" class="form-control" id="document-name" placeholder="">
+                                     </div>
+                                     <div class="input-group image-preview">
+                                         <input placeholder="" type="text" class="form-control image-preview-filename" disabled="disabled">
+                                         <!-- don't give a name === doesn't send on POST/GET -->
+						<span class="input-group-btn">
+						<!-- image-preview-clear button -->
+						<button type="button" class="btn btn-default image-preview-clear" style="display:none;"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
+                            <!-- image-preview-input -->
+							<input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
+                            <!-- rename it -->
+						</div>
+						<button type="button" class="btn btn-labeled btn-default"> <span class="btn-label"><i class="glyphicon glyphicon-upload"></i> </span>Upload</button>
+						</span> </div>
+                                     <!-- /input-group image-preview [TO HERE]-->
+
+
+
+                             </div>
+                         </div>
+
+                     </div>
+                 </div>
+
+                 <!-- /container -->
+
   </div>
-        </div>
+
             </div>
         </div>
     </div>
 
-</div>
+
 </div>
 </div>
 
 
-<!-- Image grid end -->
+
+  <!-- Image grid end -->
 </header><!-- header role="banner" -->
 
     
